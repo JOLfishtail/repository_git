@@ -58,4 +58,20 @@ git commit -am 'git20210122'
 git rm -r --cached .
 
 
+git log
+git log --oneline
+git log --oneline --graph
+
+da标签
+git tag -a v0.1 d3d2d809 'v0.1_fishtail'
+
+查看分支
+git branch
+
+新建分支
+git branch fishtail
+
+切换分支
+git checkout fishtail
+
 
