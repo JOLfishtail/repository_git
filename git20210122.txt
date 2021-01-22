@@ -38,7 +38,16 @@ git add -A	(新增 修改 删除 的文件加入缓存库)
 
 文件 ------git add -A ---------->缓存库------------git commit -m '版本描述' ---------->文件库
 
-git commit -am '版本描述' 
+git commit -am 'git20210122' 
+
+
+git中三类文件
+tracked被追踪的:已经加入文档库
+untracked不被追踪的:没有加入文档库
+ignored忽略的:忽略那些不需要管理的文件和文件夹
+
+git status
+
 
 
 
