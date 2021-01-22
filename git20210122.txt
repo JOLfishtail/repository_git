@@ -81,4 +81,19 @@ git merge fishtail
 
 merge V 0.5
 
+git show HEAD
+
+回退
+git log --oneline --graph
+git reset --hard v0.1 (ID或tag)
+
+
+查询所有提交点(包括回退)
+git reflog
+
+
+git status
+git add -A
+git commit -am 'git20210122' 
+
 
