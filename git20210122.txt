@@ -76,5 +76,7 @@ git checkout fishtail
 
 
 git checkout master
+git merge fishtail
+
 
 
