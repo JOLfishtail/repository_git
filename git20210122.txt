@@ -54,5 +54,8 @@ git add -A
 git commit -am 'git20210122' 
 
 
+清除版本, 重新提交
+git rm -r --cached .
+
 
 
