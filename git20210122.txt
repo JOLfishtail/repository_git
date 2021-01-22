@@ -63,7 +63,7 @@ git log --oneline
 git log --oneline --graph
 
 da标签
-git tag -a v0.1 d3d2d809 'v0.1_fishtail'
+git tag -a v0.1 d3d2d809
 
 查看分支
 git branch
