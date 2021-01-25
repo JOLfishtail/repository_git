@@ -122,6 +122,8 @@ git log --oneline --graph
 
 git commit -am 'v0.8' 
 
+git remote -v
+
 git push -u origin_first master
 
 
