@@ -132,5 +132,13 @@ git pull origin_first master
 v1.0 vc0.2 v1.2
 
 
+分支的概念 规范的团队git管理---git flow
+
+Master(生产主分支)  Develop(开发主分支) Feature(新功能) Release(发布测试) HotFix(紧急发布)
+
+
+
+
+
 
 
