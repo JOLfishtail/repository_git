@@ -113,6 +113,8 @@ git push -u origin_first master
 clone (删去原有的,重新克隆)
 git clone https://github.com/JOLfishtail/repository_git.git origin_first
 
+vc0.1
+
 
 git status
 
