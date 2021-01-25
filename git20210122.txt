@@ -108,12 +108,22 @@ git remote -v
 
 
 本地修改推送到远程
-git push -u origin main
+git push -u origin_first master
 
-
-clone
+clone (删去原有的,重新克隆)
 git clone https://github.com/JOLfishtail/repository_git.git origin_first
 
+
+git status
+
+git log --oneline --graph
+
+git commit -am 'v0.8' 
+
+git push -u origin_first master
+
+
+git pull origin_first master
 
 
 
