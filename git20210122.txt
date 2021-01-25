@@ -95,8 +95,24 @@ git reflog
 git status
 git add -A
 git commit -am 'v0.8' 
+
+git log --oneline --graph
 打标签
 git tag -a v0.1 d3d2d809
+
+
+本地连接到远程github
+git remote add origin_first https://github.com/JOLfishtail/repository_git.git
+
+git remote -v
+
+
+本地修改推送到远程
+git push -u origin main
+
+
+clone
+git clone https://github.com/JOLfishtail/repository_git.git origin_first
 
 
 
