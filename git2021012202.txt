@@ -1,0 +1,53 @@
+git 20210122
+
+
+git --version
+
+git init
+Initialized empty Git repository in D:/repository_git/.git/
+
+
+git config -l
+
+配置 user.name user.mail
+
+当前项目 git/config
+当前用户/.gitconfig
+安装目录/etc/gitconfig
+
+
+git commit -m 'git20210122'
+
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "fxwh0619@126.com"
+  git config --global user.name "JOLfishtail"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ker@DESKTOP-RJENKOQ.(none)')
+
+git add .	(新增 修改 的文件加入缓存库)
+git add -A	(新增 修改 删除 的文件加入缓存库)
+
+
+文件 ------git add -A ---------->缓存库------------git commit -m '版本描述' ---------->文件库
+
+git commit -am 'git20210122' 
+
+
+git中三类文件
+tracked被追踪的:已经加入文档库
+untracked不被追踪的:没有加入文档库
+ignored忽略的:忽略那些不需要管理的文件和文件夹
+
+git status
+
+
+
+

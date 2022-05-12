@@ -1,0 +1,144 @@
+git 20210122
+
+
+git --version
+
+git init
+Initialized empty Git repository in D:/repository_git/.git/
+
+
+git config -l
+
+配置 user.name user.mail
+
+当前项目 git/config
+当前用户/.gitconfig
+安装目录/etc/gitconfig
+
+
+git commit -m 'git20210122'
+
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "fxwh0619@126.com"
+  git config --global user.name "JOLfishtail"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ker@DESKTOP-RJENKOQ.(none)')
+
+git add .	(新增 修改 的文件加入缓存库)
+git add -A	(新增 修改 删除 的文件加入缓存库)
+
+
+文件 ------git add -A ---------->缓存库------------git commit -m '版本描述' ---------->文件库
+
+git commit -am 'git20210122' 
+
+
+git中三类文件
+tracked被追踪的:已经加入文档库
+untracked不被追踪的:没有加入文档库
+ignored忽略的:忽略那些不需要管理的文件和文件夹
+
+git status
+git add filename
+
+git status
+git add -A
+git commit -am 'git20210122' 
+
+
+清除版本, 重新提交
+git rm -r --cached .
+
+
+git log
+git log --oneline
+git log --oneline --graph
+
+da标签
+git tag -a v0.1 d3d2d809
+
+查看分支
+git branch
+
+新建分支
+git branch fishtail
+
+切换分支
+git checkout fishtail
+
+
+git checkout master
+git merge fishtail
+
+
+merge V 0.5
+
+git show HEAD
+
+回退
+git log --oneline --graph
+git reset --hard v0.1 (ID或tag)
+
+
+查询所有提交点(包括回退)
+git reflog
+
+
+git status
+git add -A
+git commit -am 'v0.8' 
+
+git log --oneline --graph
+打标签
+git tag -a v0.1 d3d2d809
+
+
+本地连接到远程github
+git remote add origin_first https://github.com/JOLfishtail/repository_git.git
+
+git remote -v
+
+
+本地修改推送到远程
+git push -u origin_first master
+
+clone (删去原有的,重新克隆)
+git clone https://github.com/JOLfishtail/repository_git.git origin_first
+
+vc0.1
+
+
+git status
+
+git log --oneline --graph
+
+git commit -am 'v0.8' 
+
+git remote -v
+
+git push -u origin_first master
+
+
+git pull origin_first master
+
+v1.0 vc0.2 v1.2
+
+
+分支的概念 规范的团队git管理---git flow
+
+Master(生产主分支)  Develop(开发主分支) Feature(新功能) Release(发布测试) HotFix(紧急发布)
+
+
+
+
+
+
+
